@@ -1,0 +1,140 @@
+/* main html */
+.central {
+    text-align: center;
+}
+
+div.no_selection {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.toolbar {
+    padding: 4px;
+    display: inline-block;
+    font-size: 10px;
+    height: 23px;
+    width: inherit;
+}
+
+.toolbar_label {
+    padding: 0px 4px 0px 4px;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.toolbar_button {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.toolbar_button_label {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.scollbar_wrap {
+    padding: 5px;
+}
+
+#userfilter,
+#levelfilter,
+#mdsslider {
+    width: 100px;
+    display: inline-block;
+}
+
+#mainview {
+    text-align: center;
+    padding: 4px;
+    height: 650px;
+    width: 650px;
+}
+
+#mainview svg {
+	background-color: white;
+}
+
+.vertex.selected .boundary{
+    stroke: blue;
+    stroke-width: 2px;
+}
+
+.vertex.highlighted .boundary {
+    stroke: blue;
+    stroke-width: 2px;
+}
+
+
+#vview1,
+#vview2 {
+    text-align: center;
+    padding: 4px;
+    width: 290px;
+    height: 500px;
+}
+
+#overview {
+    text-align: center;
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+}
+
+#hview1,
+#hview2 {
+    text-align: left;
+    padding: 4px;
+    height: 220px;
+    width: 950px;
+}
+
+#featureview {
+	font-size: 0.5em;
+	font-family: sans-serif;
+}
+
+
+#hview1,
+#hview2,
+#vview1,
+#vview2 {
+    overflow: auto;
+}
+
+#stateaxis-x,
+#stateaxis-y {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.twtr-hashtag,
+.twtr-hyperlink,
+.twtr-atreply {
+	text-decoration: none;
+    color: #0084B4;
+}
+
+
+/* brush */
+.brush .extent {
+  stroke: black;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+text {
+	font-family: serif;
+	font-size: medium;
+}
+
+text.click {
+    pointer-events: none;
+    text-anchor: middle;
+    font: 100px sans-serif;
+    font-weight: bold;
+    fill: black;
+    text-shadow: 0 1px 0 #ccc, 0 -1px 0 #756bb1, 1px 0 0 #de2d26, -1px 0 0 #edf8b1;
+}
